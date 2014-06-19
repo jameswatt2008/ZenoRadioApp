@@ -7,20 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2716D63A1950460C00D021CB /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2716D6391950460C00D021CB /* Countries.plist */; };
+		27499D1C19518CC8004F8F6E /* pjsua_app.c in Sources */ = {isa = PBXBuildFile; fileRef = 27499D1419518CC8004F8F6E /* pjsua_app.c */; };
+		27499D1D19518CC8004F8F6E /* pjsua_app_cli.c in Sources */ = {isa = PBXBuildFile; fileRef = 27499D1619518CC8004F8F6E /* pjsua_app_cli.c */; };
+		27499D1E19518CC8004F8F6E /* pjsua_app_common.c in Sources */ = {isa = PBXBuildFile; fileRef = 27499D1719518CC8004F8F6E /* pjsua_app_common.c */; };
+		27499D1F19518CC8004F8F6E /* pjsua_app_config.c in Sources */ = {isa = PBXBuildFile; fileRef = 27499D1919518CC8004F8F6E /* pjsua_app_config.c */; };
+		27499D2019518CC8004F8F6E /* pjsua_app_legacy.c in Sources */ = {isa = PBXBuildFile; fileRef = 27499D1B19518CC8004F8F6E /* pjsua_app_legacy.c */; };
+		2780B953194EE4F50023E2F5 /* ZRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780B952194EE4F50023E2F5 /* ZRScrollView.m */; };
+		2780B95A194F0B910023E2F5 /* ZRSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780B959194F0B910023E2F5 /* ZRSettingsViewController.m */; };
+		2780B95D194F0B9C0023E2F5 /* ZRInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780B95C194F0B9C0023E2F5 /* ZRInformationViewController.m */; };
+		2780B981194F2EA10023E2F5 /* bar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B961194F2EA10023E2F5 /* bar1@2x.png */; };
+		2780B982194F2EA10023E2F5 /* bar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B962194F2EA10023E2F5 /* bar2@2x.png */; };
+		2780B983194F2EA10023E2F5 /* bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B963194F2EA10023E2F5 /* bar@2x.png */; };
+		2780B984194F2EA10023E2F5 /* BlueBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B964194F2EA10023E2F5 /* BlueBackground@2x.png */; };
+		2780B985194F2EA10023E2F5 /* buttonCancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B965194F2EA10023E2F5 /* buttonCancel@2x.png */; };
+		2780B986194F2EA10023E2F5 /* buttonContinue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B966194F2EA10023E2F5 /* buttonContinue@2x.png */; };
+		2780B987194F2EA10023E2F5 /* buttonHeadSet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B967194F2EA10023E2F5 /* buttonHeadSet@2x.png */; };
+		2780B988194F2EA10023E2F5 /* buttonPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B968194F2EA10023E2F5 /* buttonPause@2x.png */; };
+		2780B989194F2EA10023E2F5 /* Call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B969194F2EA10023E2F5 /* Call@2x.png */; };
+		2780B98A194F2EA10023E2F5 /* chargePopUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96A194F2EA10023E2F5 /* chargePopUp@2x.png */; };
+		2780B98B194F2EA10023E2F5 /* Collapsed Bar1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96B194F2EA10023E2F5 /* Collapsed Bar1@2x.png */; };
+		2780B98C194F2EA10023E2F5 /* Collapsed Bar2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96C194F2EA10023E2F5 /* Collapsed Bar2@2x.png */; };
+		2780B98D194F2EA10023E2F5 /* collapsedLeftBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96D194F2EA10023E2F5 /* collapsedLeftBar@2x.png */; };
+		2780B98E194F2EA10023E2F5 /* collapsedRightBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96E194F2EA10023E2F5 /* collapsedRightBar@2x.png */; };
+		2780B98F194F2EA10023E2F5 /* HeadphoneWifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B96F194F2EA10023E2F5 /* HeadphoneWifi@2x.png */; };
+		2780B990194F2EA10023E2F5 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B970194F2EA10023E2F5 /* info@2x.png */; };
+		2780B991194F2EA10023E2F5 /* information@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B971194F2EA10023E2F5 /* information@2x.png */; };
+		2780B992194F2EA10023E2F5 /* knob@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B972194F2EA10023E2F5 /* knob@2x.png */; };
+		2780B993194F2EA10023E2F5 /* leftArrow1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B973194F2EA10023E2F5 /* leftArrow1@2x.png */; };
+		2780B994194F2EA10023E2F5 /* leftArrow2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B974194F2EA10023E2F5 /* leftArrow2@2x.png */; };
+		2780B995194F2EA10023E2F5 /* LeftBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B975194F2EA10023E2F5 /* LeftBack@2x.png */; };
+		2780B996194F2EA10023E2F5 /* progress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B976194F2EA10023E2F5 /* progress@2x.png */; };
+		2780B997194F2EA10023E2F5 /* rightArrow1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B977194F2EA10023E2F5 /* rightArrow1@2x.png */; };
+		2780B998194F2EA10023E2F5 /* rightArrow2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B978194F2EA10023E2F5 /* rightArrow2@2x.png */; };
+		2780B999194F2EA10023E2F5 /* RightBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B979194F2EA10023E2F5 /* RightBack@2x.png */; };
+		2780B99A194F2EA10023E2F5 /* settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97A194F2EA10023E2F5 /* settings@2x.png */; };
+		2780B99B194F2EA10023E2F5 /* slideCover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97B194F2EA10023E2F5 /* slideCover@2x.png */; };
+		2780B99C194F2EA10023E2F5 /* slideToCallText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97C194F2EA10023E2F5 /* slideToCallText@2x.png */; };
+		2780B99D194F2EA10023E2F5 /* slideToListenText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97D194F2EA10023E2F5 /* slideToListenText@2x.png */; };
+		2780B99E194F2EA10023E2F5 /* speaker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97E194F2EA10023E2F5 /* speaker@2x.png */; };
+		2780B99F194F2EA10023E2F5 /* transparentBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B97F194F2EA10023E2F5 /* transparentBar.png */; };
+		2780B9A0194F2EA10023E2F5 /* ZenoRadio Logo White@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B980194F2EA10023E2F5 /* ZenoRadio Logo White@2x.png */; };
+		2780B9A8194F2F8E0023E2F5 /* infoDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A1194F2F8E0023E2F5 /* infoDivider@2x.png */; };
+		2780B9A9194F2F8E0023E2F5 /* infotext1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A2194F2F8E0023E2F5 /* infotext1@2x.png */; };
+		2780B9AA194F2F8E0023E2F5 /* infotext2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A3194F2F8E0023E2F5 /* infotext2@2x.png */; };
+		2780B9AB194F2F8E0023E2F5 /* infotext3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A4194F2F8E0023E2F5 /* infotext3@2x.png */; };
+		2780B9AC194F2F8E0023E2F5 /* infotext4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A5194F2F8E0023E2F5 /* infotext4@2x.png */; };
+		2780B9AD194F2F8E0023E2F5 /* infotext5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A6194F2F8E0023E2F5 /* infotext5@2x.png */; };
+		2780B9AE194F2F8E0023E2F5 /* infoTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9A7194F2F8E0023E2F5 /* infoTitle@2x.png */; };
+		2780B9B1194F3D5D0023E2F5 /* ZRLanguageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780B9B0194F3D5D0023E2F5 /* ZRLanguageViewController.m */; };
+		2780B9B4194F3D680023E2F5 /* ZRLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2780B9B3194F3D680023E2F5 /* ZRLocationViewController.m */; };
+		2780B9B7194F402B0023E2F5 /* checked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9B5194F402B0023E2F5 /* checked@2x.png */; };
+		2780B9B8194F402B0023E2F5 /* unchecked@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2780B9B6194F402B0023E2F5 /* unchecked@2x.png */; };
+		279F8688194EC3D00002D7B2 /* ZRSpeakerVolume.m in Sources */ = {isa = PBXBuildFile; fileRef = 279F8687194EC3D00002D7B2 /* ZRSpeakerVolume.m */; };
+		279F868A194EC4150002D7B2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 279F8689194EC4150002D7B2 /* CoreMotion.framework */; };
 		27AA6CA9194E979A00CBB290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CA8194E979A00CBB290 /* Foundation.framework */; };
 		27AA6CAB194E979A00CBB290 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CAA194E979A00CBB290 /* CoreGraphics.framework */; };
 		27AA6CAD194E979A00CBB290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CAC194E979A00CBB290 /* UIKit.framework */; };
 		27AA6CB3194E979A00CBB290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27AA6CB1194E979A00CBB290 /* InfoPlist.strings */; };
 		27AA6CB5194E979A00CBB290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6CB4194E979A00CBB290 /* main.m */; };
-		27AA6CB9194E979A00CBB290 /* ZRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6CB8194E979A00CBB290 /* ZRAppDelegate.m */; };
-		27AA6CBC194E979A00CBB290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AA6CBA194E979A00CBB290 /* Main.storyboard */; };
-		27AA6CBF194E979A00CBB290 /* ZRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6CBE194E979A00CBB290 /* ZRViewController.m */; };
 		27AA6CC1194E979A00CBB290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27AA6CC0194E979A00CBB290 /* Images.xcassets */; };
 		27AA6CC8194E979A00CBB290 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CC7194E979A00CBB290 /* XCTest.framework */; };
 		27AA6CC9194E979A00CBB290 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CA8194E979A00CBB290 /* Foundation.framework */; };
 		27AA6CCA194E979A00CBB290 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27AA6CAC194E979A00CBB290 /* UIKit.framework */; };
 		27AA6CD2194E979A00CBB290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27AA6CD0194E979A00CBB290 /* InfoPlist.strings */; };
 		27AA6CD4194E979A00CBB290 /* ZenoRadioAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6CD3194E979A00CBB290 /* ZenoRadioAppTests.m */; };
+		27AA6CE7194E981C00CBB290 /* ZRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6CE0194E981C00CBB290 /* ZRAppDelegate.m */; };
+		27AA6CE8194E981C00CBB290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27AA6CE6194E981C00CBB290 /* Main.storyboard */; };
+		27AA6D2A194EA81B00CBB290 /* ZRMainDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AA6D29194EA81B00CBB290 /* ZRMainDisplayViewController.m */; };
+		B20770E59D16437C846A1E6A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D0E208869403CAE9FC683 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +89,69 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2716D6391950460C00D021CB /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
+		27499D1419518CC8004F8F6E /* pjsua_app.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pjsua_app.c; sourceTree = "<group>"; };
+		27499D1519518CC8004F8F6E /* pjsua_app.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pjsua_app.h; sourceTree = "<group>"; };
+		27499D1619518CC8004F8F6E /* pjsua_app_cli.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pjsua_app_cli.c; sourceTree = "<group>"; };
+		27499D1719518CC8004F8F6E /* pjsua_app_common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pjsua_app_common.c; sourceTree = "<group>"; };
+		27499D1919518CC8004F8F6E /* pjsua_app_config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pjsua_app_config.c; sourceTree = "<group>"; };
+		27499D1B19518CC8004F8F6E /* pjsua_app_legacy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pjsua_app_legacy.c; sourceTree = "<group>"; };
+		27499D2119518FF4004F8F6E /* pjsua_app_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pjsua_app_common.h; sourceTree = "<group>"; };
+		27499D2219518FF4004F8F6E /* pjsua_app_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pjsua_app_config.h; sourceTree = "<group>"; };
+		2780B951194EE4F50023E2F5 /* ZRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRScrollView.h; sourceTree = "<group>"; };
+		2780B952194EE4F50023E2F5 /* ZRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRScrollView.m; sourceTree = "<group>"; };
+		2780B958194F0B910023E2F5 /* ZRSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSettingsViewController.h; sourceTree = "<group>"; };
+		2780B959194F0B910023E2F5 /* ZRSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSettingsViewController.m; sourceTree = "<group>"; };
+		2780B95B194F0B9C0023E2F5 /* ZRInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRInformationViewController.h; sourceTree = "<group>"; };
+		2780B95C194F0B9C0023E2F5 /* ZRInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRInformationViewController.m; sourceTree = "<group>"; };
+		2780B961194F2EA10023E2F5 /* bar1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar1@2x.png"; sourceTree = "<group>"; };
+		2780B962194F2EA10023E2F5 /* bar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar2@2x.png"; sourceTree = "<group>"; };
+		2780B963194F2EA10023E2F5 /* bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bar@2x.png"; sourceTree = "<group>"; };
+		2780B964194F2EA10023E2F5 /* BlueBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BlueBackground@2x.png"; sourceTree = "<group>"; };
+		2780B965194F2EA10023E2F5 /* buttonCancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonCancel@2x.png"; sourceTree = "<group>"; };
+		2780B966194F2EA10023E2F5 /* buttonContinue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonContinue@2x.png"; sourceTree = "<group>"; };
+		2780B967194F2EA10023E2F5 /* buttonHeadSet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonHeadSet@2x.png"; sourceTree = "<group>"; };
+		2780B968194F2EA10023E2F5 /* buttonPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonPause@2x.png"; sourceTree = "<group>"; };
+		2780B969194F2EA10023E2F5 /* Call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Call@2x.png"; sourceTree = "<group>"; };
+		2780B96A194F2EA10023E2F5 /* chargePopUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chargePopUp@2x.png"; sourceTree = "<group>"; };
+		2780B96B194F2EA10023E2F5 /* Collapsed Bar1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Collapsed Bar1@2x.png"; sourceTree = "<group>"; };
+		2780B96C194F2EA10023E2F5 /* Collapsed Bar2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Collapsed Bar2@2x.png"; sourceTree = "<group>"; };
+		2780B96D194F2EA10023E2F5 /* collapsedLeftBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collapsedLeftBar@2x.png"; sourceTree = "<group>"; };
+		2780B96E194F2EA10023E2F5 /* collapsedRightBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "collapsedRightBar@2x.png"; sourceTree = "<group>"; };
+		2780B96F194F2EA10023E2F5 /* HeadphoneWifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HeadphoneWifi@2x.png"; sourceTree = "<group>"; };
+		2780B970194F2EA10023E2F5 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		2780B971194F2EA10023E2F5 /* information@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information@2x.png"; sourceTree = "<group>"; };
+		2780B972194F2EA10023E2F5 /* knob@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knob@2x.png"; sourceTree = "<group>"; };
+		2780B973194F2EA10023E2F5 /* leftArrow1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftArrow1@2x.png"; sourceTree = "<group>"; };
+		2780B974194F2EA10023E2F5 /* leftArrow2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "leftArrow2@2x.png"; sourceTree = "<group>"; };
+		2780B975194F2EA10023E2F5 /* LeftBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeftBack@2x.png"; sourceTree = "<group>"; };
+		2780B976194F2EA10023E2F5 /* progress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progress@2x.png"; sourceTree = "<group>"; };
+		2780B977194F2EA10023E2F5 /* rightArrow1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow1@2x.png"; sourceTree = "<group>"; };
+		2780B978194F2EA10023E2F5 /* rightArrow2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightArrow2@2x.png"; sourceTree = "<group>"; };
+		2780B979194F2EA10023E2F5 /* RightBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RightBack@2x.png"; sourceTree = "<group>"; };
+		2780B97A194F2EA10023E2F5 /* settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "settings@2x.png"; sourceTree = "<group>"; };
+		2780B97B194F2EA10023E2F5 /* slideCover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideCover@2x.png"; sourceTree = "<group>"; };
+		2780B97C194F2EA10023E2F5 /* slideToCallText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideToCallText@2x.png"; sourceTree = "<group>"; };
+		2780B97D194F2EA10023E2F5 /* slideToListenText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slideToListenText@2x.png"; sourceTree = "<group>"; };
+		2780B97E194F2EA10023E2F5 /* speaker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "speaker@2x.png"; sourceTree = "<group>"; };
+		2780B97F194F2EA10023E2F5 /* transparentBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparentBar.png; sourceTree = "<group>"; };
+		2780B980194F2EA10023E2F5 /* ZenoRadio Logo White@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZenoRadio Logo White@2x.png"; sourceTree = "<group>"; };
+		2780B9A1194F2F8E0023E2F5 /* infoDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoDivider@2x.png"; sourceTree = "<group>"; };
+		2780B9A2194F2F8E0023E2F5 /* infotext1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infotext1@2x.png"; sourceTree = "<group>"; };
+		2780B9A3194F2F8E0023E2F5 /* infotext2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infotext2@2x.png"; sourceTree = "<group>"; };
+		2780B9A4194F2F8E0023E2F5 /* infotext3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infotext3@2x.png"; sourceTree = "<group>"; };
+		2780B9A5194F2F8E0023E2F5 /* infotext4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infotext4@2x.png"; sourceTree = "<group>"; };
+		2780B9A6194F2F8E0023E2F5 /* infotext5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infotext5@2x.png"; sourceTree = "<group>"; };
+		2780B9A7194F2F8E0023E2F5 /* infoTitle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoTitle@2x.png"; sourceTree = "<group>"; };
+		2780B9AF194F3D5D0023E2F5 /* ZRLanguageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRLanguageViewController.h; sourceTree = "<group>"; };
+		2780B9B0194F3D5D0023E2F5 /* ZRLanguageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRLanguageViewController.m; sourceTree = "<group>"; };
+		2780B9B2194F3D680023E2F5 /* ZRLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRLocationViewController.h; sourceTree = "<group>"; };
+		2780B9B3194F3D680023E2F5 /* ZRLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRLocationViewController.m; sourceTree = "<group>"; };
+		2780B9B5194F402B0023E2F5 /* checked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checked@2x.png"; sourceTree = "<group>"; };
+		2780B9B6194F402B0023E2F5 /* unchecked@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unchecked@2x.png"; sourceTree = "<group>"; };
+		279F8686194EC3D00002D7B2 /* ZRSpeakerVolume.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRSpeakerVolume.h; sourceTree = "<group>"; };
+		279F8687194EC3D00002D7B2 /* ZRSpeakerVolume.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRSpeakerVolume.m; sourceTree = "<group>"; };
+		279F8689194EC4150002D7B2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		27AA6CA5194E979A00CBB290 /* ZenoRadioApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenoRadioApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AA6CA8194E979A00CBB290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		27AA6CAA194E979A00CBB290 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -42,17 +160,19 @@
 		27AA6CB2194E979A00CBB290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27AA6CB4194E979A00CBB290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27AA6CB6194E979A00CBB290 /* ZenoRadioApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenoRadioApp-Prefix.pch"; sourceTree = "<group>"; };
-		27AA6CB7194E979A00CBB290 /* ZRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRAppDelegate.h; sourceTree = "<group>"; };
-		27AA6CB8194E979A00CBB290 /* ZRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRAppDelegate.m; sourceTree = "<group>"; };
-		27AA6CBB194E979A00CBB290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		27AA6CBD194E979A00CBB290 /* ZRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZRViewController.h; sourceTree = "<group>"; };
-		27AA6CBE194E979A00CBB290 /* ZRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZRViewController.m; sourceTree = "<group>"; };
 		27AA6CC0194E979A00CBB290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		27AA6CC6194E979A00CBB290 /* ZenoRadioAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenoRadioAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27AA6CC7194E979A00CBB290 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		27AA6CCF194E979A00CBB290 /* ZenoRadioAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZenoRadioAppTests-Info.plist"; sourceTree = "<group>"; };
 		27AA6CD1194E979A00CBB290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		27AA6CD3194E979A00CBB290 /* ZenoRadioAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZenoRadioAppTests.m; sourceTree = "<group>"; };
+		27AA6CDF194E981C00CBB290 /* ZRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRAppDelegate.h; sourceTree = "<group>"; };
+		27AA6CE0194E981C00CBB290 /* ZRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRAppDelegate.m; sourceTree = "<group>"; };
+		27AA6CE6194E981C00CBB290 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		27AA6D28194EA81B00CBB290 /* ZRMainDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRMainDisplayViewController.h; sourceTree = "<group>"; };
+		27AA6D29194EA81B00CBB290 /* ZRMainDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRMainDisplayViewController.m; sourceTree = "<group>"; };
+		7EEE2CA619F74F44944B2D51 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		CD6D0E208869403CAE9FC683 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +180,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				279F868A194EC4150002D7B2 /* CoreMotion.framework in Frameworks */,
 				27AA6CAB194E979A00CBB290 /* CoreGraphics.framework in Frameworks */,
 				27AA6CAD194E979A00CBB290 /* UIKit.framework in Frameworks */,
 				27AA6CA9194E979A00CBB290 /* Foundation.framework in Frameworks */,
+				B20770E59D16437C846A1E6A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +201,126 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2716D638195045FB00D021CB /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				2716D6391950460C00D021CB /* Countries.plist */,
+			);
+			path = plist;
+			sourceTree = "<group>";
+		};
+		27499D1319518CC8004F8F6E /* PJSUA */ = {
+			isa = PBXGroup;
+			children = (
+				27499D2119518FF4004F8F6E /* pjsua_app_common.h */,
+				27499D2219518FF4004F8F6E /* pjsua_app_config.h */,
+				27499D1419518CC8004F8F6E /* pjsua_app.c */,
+				27499D1519518CC8004F8F6E /* pjsua_app.h */,
+				27499D1619518CC8004F8F6E /* pjsua_app_cli.c */,
+				27499D1719518CC8004F8F6E /* pjsua_app_common.c */,
+				27499D1919518CC8004F8F6E /* pjsua_app_config.c */,
+				27499D1B19518CC8004F8F6E /* pjsua_app_legacy.c */,
+			);
+			path = PJSUA;
+			sourceTree = "<group>";
+		};
+		2780B956194F0B040023E2F5 /* information */ = {
+			isa = PBXGroup;
+			children = (
+				2780B95B194F0B9C0023E2F5 /* ZRInformationViewController.h */,
+				2780B95C194F0B9C0023E2F5 /* ZRInformationViewController.m */,
+			);
+			path = information;
+			sourceTree = "<group>";
+		};
+		2780B957194F0B040023E2F5 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				2780B958194F0B910023E2F5 /* ZRSettingsViewController.h */,
+				2780B959194F0B910023E2F5 /* ZRSettingsViewController.m */,
+				2780B9AF194F3D5D0023E2F5 /* ZRLanguageViewController.h */,
+				2780B9B0194F3D5D0023E2F5 /* ZRLanguageViewController.m */,
+				2780B9B2194F3D680023E2F5 /* ZRLocationViewController.h */,
+				2780B9B3194F3D680023E2F5 /* ZRLocationViewController.m */,
+			);
+			path = settings;
+			sourceTree = "<group>";
+		};
+		2780B95E194F2EA10023E2F5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				2780B95F194F2EA10023E2F5 /* information */,
+				2780B960194F2EA10023E2F5 /* main */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		2780B95F194F2EA10023E2F5 /* information */ = {
+			isa = PBXGroup;
+			children = (
+				2780B9A1194F2F8E0023E2F5 /* infoDivider@2x.png */,
+				2780B9A2194F2F8E0023E2F5 /* infotext1@2x.png */,
+				2780B9A3194F2F8E0023E2F5 /* infotext2@2x.png */,
+				2780B9A4194F2F8E0023E2F5 /* infotext3@2x.png */,
+				2780B9A5194F2F8E0023E2F5 /* infotext4@2x.png */,
+				2780B9A6194F2F8E0023E2F5 /* infotext5@2x.png */,
+				2780B9A7194F2F8E0023E2F5 /* infoTitle@2x.png */,
+			);
+			path = information;
+			sourceTree = "<group>";
+		};
+		2780B960194F2EA10023E2F5 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				2780B9B5194F402B0023E2F5 /* checked@2x.png */,
+				2780B9B6194F402B0023E2F5 /* unchecked@2x.png */,
+				2780B961194F2EA10023E2F5 /* bar1@2x.png */,
+				2780B962194F2EA10023E2F5 /* bar2@2x.png */,
+				2780B963194F2EA10023E2F5 /* bar@2x.png */,
+				2780B964194F2EA10023E2F5 /* BlueBackground@2x.png */,
+				2780B965194F2EA10023E2F5 /* buttonCancel@2x.png */,
+				2780B966194F2EA10023E2F5 /* buttonContinue@2x.png */,
+				2780B967194F2EA10023E2F5 /* buttonHeadSet@2x.png */,
+				2780B968194F2EA10023E2F5 /* buttonPause@2x.png */,
+				2780B969194F2EA10023E2F5 /* Call@2x.png */,
+				2780B96A194F2EA10023E2F5 /* chargePopUp@2x.png */,
+				2780B96B194F2EA10023E2F5 /* Collapsed Bar1@2x.png */,
+				2780B96C194F2EA10023E2F5 /* Collapsed Bar2@2x.png */,
+				2780B96D194F2EA10023E2F5 /* collapsedLeftBar@2x.png */,
+				2780B96E194F2EA10023E2F5 /* collapsedRightBar@2x.png */,
+				2780B96F194F2EA10023E2F5 /* HeadphoneWifi@2x.png */,
+				2780B970194F2EA10023E2F5 /* info@2x.png */,
+				2780B971194F2EA10023E2F5 /* information@2x.png */,
+				2780B972194F2EA10023E2F5 /* knob@2x.png */,
+				2780B973194F2EA10023E2F5 /* leftArrow1@2x.png */,
+				2780B974194F2EA10023E2F5 /* leftArrow2@2x.png */,
+				2780B975194F2EA10023E2F5 /* LeftBack@2x.png */,
+				2780B976194F2EA10023E2F5 /* progress@2x.png */,
+				2780B977194F2EA10023E2F5 /* rightArrow1@2x.png */,
+				2780B978194F2EA10023E2F5 /* rightArrow2@2x.png */,
+				2780B979194F2EA10023E2F5 /* RightBack@2x.png */,
+				2780B97A194F2EA10023E2F5 /* settings@2x.png */,
+				2780B97B194F2EA10023E2F5 /* slideCover@2x.png */,
+				2780B97C194F2EA10023E2F5 /* slideToCallText@2x.png */,
+				2780B97D194F2EA10023E2F5 /* slideToListenText@2x.png */,
+				2780B97E194F2EA10023E2F5 /* speaker@2x.png */,
+				2780B97F194F2EA10023E2F5 /* transparentBar.png */,
+				2780B980194F2EA10023E2F5 /* ZenoRadio Logo White@2x.png */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		279F8685194EC3AB0002D7B2 /* custom controls */ = {
+			isa = PBXGroup;
+			children = (
+				279F8686194EC3D00002D7B2 /* ZRSpeakerVolume.h */,
+				279F8687194EC3D00002D7B2 /* ZRSpeakerVolume.m */,
+				2780B951194EE4F50023E2F5 /* ZRScrollView.h */,
+				2780B952194EE4F50023E2F5 /* ZRScrollView.m */,
+			);
+			path = "custom controls";
+			sourceTree = "<group>";
+		};
 		27AA6C9C194E979A00CBB290 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +328,7 @@
 				27AA6CCD194E979A00CBB290 /* ZenoRadioAppTests */,
 				27AA6CA7194E979A00CBB290 /* Frameworks */,
 				27AA6CA6194E979A00CBB290 /* Products */,
+				7EEE2CA619F74F44944B2D51 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +344,12 @@
 		27AA6CA7194E979A00CBB290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				279F8689194EC4150002D7B2 /* CoreMotion.framework */,
 				27AA6CA8194E979A00CBB290 /* Foundation.framework */,
 				27AA6CAA194E979A00CBB290 /* CoreGraphics.framework */,
 				27AA6CAC194E979A00CBB290 /* UIKit.framework */,
 				27AA6CC7194E979A00CBB290 /* XCTest.framework */,
+				CD6D0E208869403CAE9FC683 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +357,9 @@
 		27AA6CAE194E979A00CBB290 /* ZenoRadioApp */ = {
 			isa = PBXGroup;
 			children = (
-				27AA6CB7194E979A00CBB290 /* ZRAppDelegate.h */,
-				27AA6CB8194E979A00CBB290 /* ZRAppDelegate.m */,
-				27AA6CBA194E979A00CBB290 /* Main.storyboard */,
-				27AA6CBD194E979A00CBB290 /* ZRViewController.h */,
-				27AA6CBE194E979A00CBB290 /* ZRViewController.m */,
+				27AA6CDD194E981C00CBB290 /* Controller */,
+				27AA6CE1194E981C00CBB290 /* Model */,
+				27AA6CE2194E981C00CBB290 /* View */,
 				27AA6CC0194E979A00CBB290 /* Images.xcassets */,
 				27AA6CAF194E979A00CBB290 /* Supporting Files */,
 			);
@@ -152,6 +395,70 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		27AA6CDD194E981C00CBB290 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2780B956194F0B040023E2F5 /* information */,
+				2780B957194F0B040023E2F5 /* settings */,
+				27AA6D27194EA7C900CBB290 /* main display */,
+				27AA6CDE194E981C00CBB290 /* application delegate */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		27AA6CDE194E981C00CBB290 /* application delegate */ = {
+			isa = PBXGroup;
+			children = (
+				27AA6CDF194E981C00CBB290 /* ZRAppDelegate.h */,
+				27AA6CE0194E981C00CBB290 /* ZRAppDelegate.m */,
+			);
+			path = "application delegate";
+			sourceTree = "<group>";
+		};
+		27AA6CE1194E981C00CBB290 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27499D1319518CC8004F8F6E /* PJSUA */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		27AA6CE2194E981C00CBB290 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				279F8685194EC3AB0002D7B2 /* custom controls */,
+				27AA6CE3194E981C00CBB290 /* assets */,
+				27AA6CE5194E981C00CBB290 /* storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27AA6CE3194E981C00CBB290 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				2716D638195045FB00D021CB /* plist */,
+				2780B95E194F2EA10023E2F5 /* images */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		27AA6CE5194E981C00CBB290 /* storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				27AA6CE6194E981C00CBB290 /* Main.storyboard */,
+			);
+			path = storyboard;
+			sourceTree = "<group>";
+		};
+		27AA6D27194EA7C900CBB290 /* main display */ = {
+			isa = PBXGroup;
+			children = (
+				27AA6D28194EA81B00CBB290 /* ZRMainDisplayViewController.h */,
+				27AA6D29194EA81B00CBB290 /* ZRMainDisplayViewController.m */,
+			);
+			path = "main display";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +466,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27AA6CD7194E979A00CBB290 /* Build configuration list for PBXNativeTarget "ZenoRadioApp" */;
 			buildPhases = (
+				E1C8F32EB8EF4FF58151B5D1 /* Check Pods Manifest.lock */,
 				27AA6CA1194E979A00CBB290 /* Sources */,
 				27AA6CA2194E979A00CBB290 /* Frameworks */,
 				27AA6CA3194E979A00CBB290 /* Resources */,
+				4D37EFB0C6184D23B3CCDB4A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +538,51 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2780B98E194F2EA10023E2F5 /* collapsedRightBar@2x.png in Resources */,
+				2780B997194F2EA10023E2F5 /* rightArrow1@2x.png in Resources */,
+				2780B99B194F2EA10023E2F5 /* slideCover@2x.png in Resources */,
+				27AA6CE8194E981C00CBB290 /* Main.storyboard in Resources */,
+				2780B9AA194F2F8E0023E2F5 /* infotext2@2x.png in Resources */,
+				2780B988194F2EA10023E2F5 /* buttonPause@2x.png in Resources */,
+				2780B9AD194F2F8E0023E2F5 /* infotext5@2x.png in Resources */,
+				2780B99A194F2EA10023E2F5 /* settings@2x.png in Resources */,
+				2780B986194F2EA10023E2F5 /* buttonContinue@2x.png in Resources */,
+				2780B984194F2EA10023E2F5 /* BlueBackground@2x.png in Resources */,
+				2780B989194F2EA10023E2F5 /* Call@2x.png in Resources */,
+				2780B990194F2EA10023E2F5 /* info@2x.png in Resources */,
+				2780B98C194F2EA10023E2F5 /* Collapsed Bar2@2x.png in Resources */,
+				2716D63A1950460C00D021CB /* Countries.plist in Resources */,
+				2780B985194F2EA10023E2F5 /* buttonCancel@2x.png in Resources */,
+				2780B993194F2EA10023E2F5 /* leftArrow1@2x.png in Resources */,
+				2780B98A194F2EA10023E2F5 /* chargePopUp@2x.png in Resources */,
+				2780B9A8194F2F8E0023E2F5 /* infoDivider@2x.png in Resources */,
+				2780B98B194F2EA10023E2F5 /* Collapsed Bar1@2x.png in Resources */,
+				2780B992194F2EA10023E2F5 /* knob@2x.png in Resources */,
 				27AA6CC1194E979A00CBB290 /* Images.xcassets in Resources */,
+				2780B994194F2EA10023E2F5 /* leftArrow2@2x.png in Resources */,
+				2780B9AB194F2F8E0023E2F5 /* infotext3@2x.png in Resources */,
+				2780B996194F2EA10023E2F5 /* progress@2x.png in Resources */,
+				2780B9B8194F402B0023E2F5 /* unchecked@2x.png in Resources */,
+				2780B9A0194F2EA10023E2F5 /* ZenoRadio Logo White@2x.png in Resources */,
+				2780B983194F2EA10023E2F5 /* bar@2x.png in Resources */,
+				2780B9A9194F2F8E0023E2F5 /* infotext1@2x.png in Resources */,
+				2780B995194F2EA10023E2F5 /* LeftBack@2x.png in Resources */,
+				2780B9AC194F2F8E0023E2F5 /* infotext4@2x.png in Resources */,
+				2780B98D194F2EA10023E2F5 /* collapsedLeftBar@2x.png in Resources */,
+				2780B981194F2EA10023E2F5 /* bar1@2x.png in Resources */,
+				2780B98F194F2EA10023E2F5 /* HeadphoneWifi@2x.png in Resources */,
 				27AA6CB3194E979A00CBB290 /* InfoPlist.strings in Resources */,
-				27AA6CBC194E979A00CBB290 /* Main.storyboard in Resources */,
+				2780B99C194F2EA10023E2F5 /* slideToCallText@2x.png in Resources */,
+				2780B99F194F2EA10023E2F5 /* transparentBar.png in Resources */,
+				2780B998194F2EA10023E2F5 /* rightArrow2@2x.png in Resources */,
+				2780B9B7194F402B0023E2F5 /* checked@2x.png in Resources */,
+				2780B999194F2EA10023E2F5 /* RightBack@2x.png in Resources */,
+				2780B991194F2EA10023E2F5 /* information@2x.png in Resources */,
+				2780B99D194F2EA10023E2F5 /* slideToListenText@2x.png in Resources */,
+				2780B982194F2EA10023E2F5 /* bar2@2x.png in Resources */,
+				2780B987194F2EA10023E2F5 /* buttonHeadSet@2x.png in Resources */,
+				2780B99E194F2EA10023E2F5 /* speaker@2x.png in Resources */,
+				2780B9AE194F2F8E0023E2F5 /* infoTitle@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +596,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D37EFB0C6184D23B3CCDB4A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1C8F32EB8EF4FF58151B5D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27AA6CA1194E979A00CBB290 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27AA6CB9194E979A00CBB290 /* ZRAppDelegate.m in Sources */,
+				27AA6D2A194EA81B00CBB290 /* ZRMainDisplayViewController.m in Sources */,
+				27499D1F19518CC8004F8F6E /* pjsua_app_config.c in Sources */,
+				27499D2019518CC8004F8F6E /* pjsua_app_legacy.c in Sources */,
+				27499D1D19518CC8004F8F6E /* pjsua_app_cli.c in Sources */,
+				27AA6CE7194E981C00CBB290 /* ZRAppDelegate.m in Sources */,
 				27AA6CB5194E979A00CBB290 /* main.m in Sources */,
-				27AA6CBF194E979A00CBB290 /* ZRViewController.m in Sources */,
+				27499D1C19518CC8004F8F6E /* pjsua_app.c in Sources */,
+				2780B9B4194F3D680023E2F5 /* ZRLocationViewController.m in Sources */,
+				2780B95D194F0B9C0023E2F5 /* ZRInformationViewController.m in Sources */,
+				2780B9B1194F3D5D0023E2F5 /* ZRLanguageViewController.m in Sources */,
+				2780B95A194F0B910023E2F5 /* ZRSettingsViewController.m in Sources */,
+				2780B953194EE4F50023E2F5 /* ZRScrollView.m in Sources */,
+				27499D1E19518CC8004F8F6E /* pjsua_app_common.c in Sources */,
+				279F8688194EC3D00002D7B2 /* ZRSpeakerVolume.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +676,6 @@
 				27AA6CB2194E979A00CBB290 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		27AA6CBA194E979A00CBB290 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27AA6CBB194E979A00CBB290 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		27AA6CD0194E979A00CBB290 /* InfoPlist.strings */ = {
@@ -374,12 +761,14 @@
 		};
 		27AA6CD8194E979A00CBB290 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEE2CA619F74F44944B2D51 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZenoRadioApp/ZenoRadioApp-Prefix.pch";
 				INFOPLIST_FILE = "ZenoRadioApp/ZenoRadioApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -387,12 +776,14 @@
 		};
 		27AA6CD9194E979A00CBB290 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EEE2CA619F74F44944B2D51 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZenoRadioApp/ZenoRadioApp-Prefix.pch";
 				INFOPLIST_FILE = "ZenoRadioApp/ZenoRadioApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -457,6 +848,7 @@
 				27AA6CD9194E979A00CBB290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27AA6CDA194E979A00CBB290 /* Build configuration list for PBXNativeTarget "ZenoRadioAppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +857,7 @@
 				27AA6CDC194E979A00CBB290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
